@@ -198,7 +198,7 @@ library(swirl)
 
 ## Datu importēšana
 
-* Bāzes R piedāvā iespējas importēt .txt, .csv un citus ASCI tipas datus
+* Bāzes R piedāvā iespējas importēt .txt, .csv un citus ASCII tipa datus
 
 * Izmantojot papildus paketes iespējams importēt ļoti daudzus citus datu formātus - Excel, SPSS, SAS, json, utt
 
