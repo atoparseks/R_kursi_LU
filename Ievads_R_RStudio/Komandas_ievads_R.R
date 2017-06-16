@@ -25,7 +25,7 @@ example(plot)
 
 # Pakesu instalacijas un pievienosana
 
-instal.packages("ggplot2")
+install.packages("ggplot2")
 library(ggplot2)
 
 
@@ -38,7 +38,7 @@ exp(2)
 # Citesana
 
 citation()
-citation("lme4")
+citation("readxl")
 
 # Interaktiva R macisanas
 

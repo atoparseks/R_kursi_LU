@@ -47,7 +47,7 @@ output:
 
 ## R popularitāte
 
-```{r popkopa,echo=FALSE}
+```{r popkopa,echo=FALSE,warning=FALSE,message=FALSE}
 if (!require("png") )  install.packages("png")
 library(png)
 library(grid)
@@ -99,6 +99,15 @@ dati
 ```
 
 
+## Programmas 
+
+Programmu R var lejupielādēt no mājaslapas https://www.r-project.org, izraugoties CRAN serveri un savai operētājsistēmai atbilstošo versiju.
+
+Programmas RStudio bezmaksas versiju var lejupielādēt:
+
+* jaunākā stabilā versija https://www.rstudio.com/products/rstudio/download/
+
+* jaunākā izstrādes versija https://www.rstudio.com/products/rstudio/download/preview/
 
 
 
@@ -157,7 +166,7 @@ http://www.rdocumentation.org/
 * Pakešu instalācija notiek ar funkciju `install.packages()`, bet pievienošana darba sesijai ar funkciju `library()`.
 
 ```{r,eval=FALSE}
-instal.packages("ggplot2")
+install.packages("ggplot2")
 library(ggplot2)
 ```
 
@@ -198,7 +207,7 @@ library(swirl)
 
 ## Datu importēšana
 
-* Bāzes R piedāvā iespējas importēt .txt, .csv un citus ASCII tipa datus
+* Bāzes R piedāvā iespējas importēt .txt, .csv un citus ASCI tipas datus
 
 * Izmantojot papildus paketes iespējams importēt ļoti daudzus citus datu formātus - Excel, SPSS, SAS, json, utt
 
